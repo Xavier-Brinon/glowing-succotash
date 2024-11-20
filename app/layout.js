@@ -4,7 +4,7 @@ export default function RootLayout({ children }) {
     <html>
       <body>
         <header>
-          <h1>My App</h1>
+          <h1>My App from Layout</h1>
         </header>
         <main>{children}</main>
       </body>

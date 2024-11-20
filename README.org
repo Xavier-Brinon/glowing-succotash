@@ -57,3 +57,19 @@ Creating:
 - app/page.js
 
 Not sure why this is not TS files, but we'll see later.
+The ~children~ props in ~layout~ will be the ~page~.
+
+*** Note 📄
+~layout.js~ and ~page.js~ need to be exported as ~default~  functions.
+Or else it bugs 🐛
+#+name: default export of page and layout
+#+begin_src javascript
+  export default function Page() {};
+  export default function RootLayout() {};
+#+end_src
+
+** Run
+To run the project as is, use the *package.json* script:
+~node --run dev~ and it will run a server in [[http://localhost:3000][localhost:3000]]
+
+It would be great to be able to run this with a local certificate.
