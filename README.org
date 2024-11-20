@@ -50,3 +50,10 @@ The list of packages to start with:
 :
 : found 0 vulnerabilities
 
+** Layout
+Pages layout is has been, going for the app layout.
+Creating:
+- app/layout.js
+- app/page.js
+
+Not sure why this is not TS files, but we'll see later.
