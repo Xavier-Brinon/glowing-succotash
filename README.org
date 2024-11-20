@@ -1,0 +1,31 @@
+#+title: Road to Next - Basic
+#+date: [2024-11-20 Wed]
+#+author: Xavier Brinon <xavier@brinon.eu> HaQadosch
+#+startup: indent
+#+property: header-args :results output
+
+* Init
+Making sure *node* is at the latest
+#+name: install latest node
+#+begin_src shell
+  nvm install node
+  npm init -y
+#+end_src
+
+#+RESULTS: install latest node
+#+begin_example
+Wrote to /glowing-succotash/package.json:
+
+{
+  "name": "glowing-succotash",
+  "version": "1.0.0",
+  "description": "Road to Next courses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+#+end_example
