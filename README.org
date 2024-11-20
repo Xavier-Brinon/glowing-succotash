@@ -4,7 +4,8 @@
 #+startup: indent
 #+property: header-args :results output
 
-* Init
+* Starting the project
+** Init
 Making sure *node* is at the latest
 #+name: install latest node
 #+begin_src shell
@@ -29,3 +30,23 @@ Wrote to /glowing-succotash/package.json:
   "license": "ISC"
 }
 #+end_example
+
+** 📦 Installing packages
+The list of packages to start with:
+- react & react-dom
+  # Even though it won't be used right away, it's also there 🤷🏻‍♂️
+- next
+#+name: install dependencies
+#+begin_src shell
+  npm install react react-dom next
+#+end_src
+
+#+RESULTS: install dependencies
+:
+: added 31 packages, and audited 32 packages in 21s
+:
+: 6 packages are looking for funding
+:   run `npm fund` for details
+:
+: found 0 vulnerabilities
+
